@@ -1,5 +1,5 @@
 import java.io.*; 
-import java.rmi.*; 
+import java.rmi.*; /*remove rmi*/
 import java.net.*;  
 import java.util.Scanner;
 import java.applet.*;
@@ -25,6 +25,7 @@ public class Server implements ActionListener {
     Font ft = new Font("LucidaSans",Font.BOLD|Font.ITALIC,18);
 
     l1 = new JLabel("Enter text");
+l1.setToolTipText("text here");
     l1.setBounds(50,100,150,30);
     l1.setFont(ft);
     l1.setForeground(Color.white);

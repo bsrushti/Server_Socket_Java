@@ -24,6 +24,7 @@ public class Client1 implements ActionListener {
     Font ft = new Font("LucidaSans",Font.BOLD|Font.ITALIC,18);
 
     l1 = new JLabel("Enter text");
+    l1.setToolTipText("text here");
     l1.setBounds(50,100,150,30);
     l1.setFont(ft);
     l1.setForeground(Color.white);
